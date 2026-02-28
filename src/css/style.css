@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient( #001055, #000452) no-repeat center center fixed;
+    color: #fff;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 15%;
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 32pt;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 20px #0079b5);
+}
+
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 10px;
+}
+
+table, th, td, tr {
+    border: 1px solid #fff;
+}
+
+table {
+    width: calc(100% - 50px);
+    border-collapse: collapse;
+    margin: 25px;
+}
+
+th, td {
+    width: 1fr;
+    padding: 5px;
+    align-self: center;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #54c6ff;
+    transition: 0.3s;
+}
